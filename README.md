@@ -63,3 +63,5 @@ The theme folder contains a copy of the AdminLTE theme. Is there with all widget
 Actually in the public folder there are copies of bower_components, plugins and other javascripts and css files required by the theme
 
 ## link website
+
+[https://admin-lte-movieapp.netlify.app]
