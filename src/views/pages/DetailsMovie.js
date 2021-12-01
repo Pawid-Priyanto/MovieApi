@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import Image from "./../../assets/img/avatar5.png";
+// import Image from "./../../assets/img/avatar5.png";
 
 export const DetailsMovie = () => {
   let location = useLocation();

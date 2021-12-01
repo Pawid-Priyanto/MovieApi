@@ -2,10 +2,10 @@ import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getGenres } from "../../state/genre";
-import Spinner from "../components/spinner";
 export const Genre = () => {
   const dispatch = useDispatch();
   const { data, loading, error } = useSelector((state) => state.genres);
+  // eslint-disable-next-line
   useEffect(() => {
     dispatch(getGenres());
   }, []);
