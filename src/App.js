@@ -1,20 +1,21 @@
-import React, { Component } from 'react'
-import { Route, Switch } from 'react-router-dom'
-import { Navbar, Aside, Footer} from './views/components'
-import { Blank } from './views/pages'
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import { Navbar, Aside, Footer } from "./views/components";
+import { DetailsMovie, Genre, Movie } from "./views/pages";
 
-export default class App extends Component {
-    render() {
-        return (
-            <>
-                <Navbar/>
-                <Aside/>
-                <Switch>
-                    <Route path="/" component={Blank} exact strict/>
-                    <Route path="*" component={Blank} exact/>
-                </Switch>
-                <Footer/>
-            </>
-        )
-    }
-}
+const App = () => {
+  return (
+    <>
+      <Navbar />
+      <Aside />
+      <Switch>
+        <Route path="/" component={Genre} exact strict />
+        <Route path="/listgenre" component={Genre} exact />
+        <Route path="/listmovie" component={Movie} exact />
+        <Route path="/movie/:id" component={DetailsMovie} exact />
+      </Switch>
+      <Footer />
+    </>
+  );
+};
+export default App;

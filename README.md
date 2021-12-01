@@ -1,16 +1,17 @@
-# React + Redux + AdminLTE Boilerplate
-
+# React + Redux + AdminLTE Boilerplate + API MOVIE
 
 ## Gears
-* [ReactJS](https://reactjs.org)
-* [Redux](http://redux.js.org)
-* [AdminLTE](https://adminlte.io)
-* [Bootstrap](https://getbootstrap.com/)
-* [JQuery](https://jquery.com/)
+
+- [ReactJS](https://reactjs.org)
+- [Redux](http://redux.js.org)
+- [AdminLTE](https://adminlte.io)
+- [Bootstrap](https://getbootstrap.com/)
+- [JQuery](https://jquery.com/)
 
 ## Setup and running
 
 Install dependencies using:
+
 ```
 npm install
 ```
@@ -20,10 +21,11 @@ Base architecture was built using [create-react-app](https://github.com/facebook
 Between included tools from Create React App there are Webpack, Babel for ES6 support, ESLint and others
 
 Create React App defines some scripts in package.json
-* start
-* build
-* test
-* eject
+
+- start
+- build
+- test
+- eject
 
 You can run them using npm (they are almost all self explanatory)
 
@@ -59,3 +61,5 @@ Please refer to the official documetation for more details.
 The theme folder contains a copy of the AdminLTE theme. Is there with all widget and pages examples. Use it as reference while building new Dashboard pages / UI.
 
 Actually in the public folder there are copies of bower_components, plugins and other javascripts and css files required by the theme
+
+## link website
